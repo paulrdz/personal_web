@@ -1,0 +1,128 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px; /* Slightly smaller font size for better fitting */
+}
+
+header {
+    text-align: center;
+    padding: 0; /* Reduced padding */
+    border-bottom: 1px solid #000;
+    margin-bottom: 0; /* Removed margin-bottom */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.4em; /* Slightly reduced font size */
+}
+
+.contact-info {
+    text-align: right;
+}
+
+.contact-info p {
+    margin: 2px 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Reduced top margin */
+    padding: 10px;
+}
+
+section {
+    margin-bottom: 5px; /* Reduced margin for better spacing */
+}
+
+section h2 {
+    border-bottom: 1px solid #000;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    font-size: 1.2em; /* Adjusted font size for H2 */
+}
+
+.job {
+    margin-bottom: 10px;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-details {
+    flex: 3;
+    text-align: left;
+    font-size: 1em; /* Adjusted font size between H2 and H3 */
+}
+
+.job-dates {
+    flex: 1;
+    text-align: right;
+    font-style: italic;
+    font-size: 1em; /* Adjusted font size between H2 and H3 */
+}
+
+.job h3 {
+    margin: 0;
+    font-size: 0.9em; /* Slightly reduced font size */
+    color: #000;
+}
+
+.job p {
+    margin: 2px 0;
+}
+
+.job ul {
+    list-style-type: disc;
+    margin: 5px 0 10px 20px;
+    padding-left: 0;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.left-column {
+    flex: 3;
+}
+
+.right-column {
+    flex: 7;
+}
+
+.skills-list {
+    column-count: 1;
+    column-gap: 20px;
+}
+
+.skills-list li {
+    margin-bottom: 5px;
+}
